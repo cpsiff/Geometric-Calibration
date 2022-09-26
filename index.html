@@ -79,7 +79,16 @@
 
   <br>
 
-  Single-pixel distance sensors are a low-power, low-cost option for distance ranging, and are often attached to robots for collision detection and avoidance. The relative sensor pose, i.e., its position and orientation relative to the robot, must be known to relate its measurements to 3D scene geometry. However, sensor pose is difficult to measure accurately, which has precluded the use of single-pixel sensors from applications such as environment mapping and precise collision avoidance. In this work, we provide a calibration procedure that can accurately determine the pose of a single-pixel distance sensor given only the known motion of the robot and an unknown planar target. We establish a geometric relationship between the relative sensor pose, robot motion, and an arbitrary plane, and show that the plane and sensor parameters can be recovered via nonlinear optimization. The result is a practical procedure for sensor calibration. We evaluate the procedure in simulation and in real world experiments, and provide an open source implementation. We consider two commonly available sensors (ST VL6180X and ST VL53L3CX) and characterize them to show that while they deviate from the idealized model used in our derivation, their poses can be recovered precisely and used for effective 3D scene reconstruction.
+  <!-- Single-pixel distance sensors are a low-power, low-cost option for distance ranging, and are often attached to robots for collision detection and avoidance. The relative sensor pose, i.e., its position and orientation relative to the robot, must be known to relate its measurements to 3D scene geometry. However, sensor pose is difficult to measure accurately, which has precluded the use of single-pixel sensors from applications such as environment mapping and precise collision avoidance. In this work, we provide a calibration procedure that can accurately determine the pose of a single-pixel distance sensor given only the known motion of the robot and an unknown planar target. We establish a geometric relationship between the relative sensor pose, robot motion, and an arbitrary plane, and show that the plane and sensor parameters can be recovered via nonlinear optimization. The result is a practical procedure for sensor calibration. We evaluate the procedure in simulation and in real world experiments, and provide an open source implementation. We consider two commonly available sensors (ST VL6180X and ST VL53L3CX) and characterize them to show that while they deviate from the idealized model used in our derivation, their poses can be recovered precisely and used for effective 3D scene reconstruction. -->
+
+  Our contributions:
+  <ul>
+  <li>A method for calibrating the 5DoF pose of a single-pixel distance sensor (range sensor) attached to a robot arm</li>
+  <li>Characterization of two single-pixel distance sensors based on SPAD technology</li>
+  <li>Theoretical characterization of our calibration procedure</li>
+  <li>Simulated characterization of our calibration procedure</li>
+  <li>Real world tests of our calibration procedure, which achieve sub-cm precision in position and < 1° precision in orientation</li>
+  </ul>
 
  <br>
  <br>
@@ -91,8 +100,9 @@
  <table align=center width=600px>
    <tr>
      <td align=center width=600px>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dqJ368it8sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-     </td>
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/dqJ368it8sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        Video coming soon!
+      </td>
    </tr>
  </table>
 
